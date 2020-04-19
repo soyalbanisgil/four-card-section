@@ -99,6 +99,9 @@ p{
     h1{
         font-size: 1.5rem;
     }
+    .header p{
+        width: 100%;
+    }
     .cards{
         grid-template-columns: 1fr;
     }
