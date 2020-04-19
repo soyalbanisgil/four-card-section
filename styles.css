@@ -87,6 +87,11 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: transform .5s ease-in-out;
+}
+
+.card:hover{
+    transform: translateY(-1rem);
 }
 
 .card img{
