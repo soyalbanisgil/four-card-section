@@ -115,3 +115,31 @@ p{
         margin-top: 1rem !important;
     }
 }
+
+/*TABLET VERSION*/
+@media screen and (min-width: 621px) and (max-width: 900px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    .header p{
+        width: 100%;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        margin-top: 1rem !important;
+    }
+    .card:nth-child(1){
+        grid-column: 1/2;
+    }
+    .card:nth-child(2){
+        grid-column: 2/3;
+    }
+    .card:nth-child(3){
+        grid-column: 1/2;
+    }
+    .card:nth-child(4){
+        grid-column: 2/3;
+    }
+}
